@@ -40,7 +40,7 @@ perl -pi -e 's/CFLAGS=/#CFLAGS=/g' Makefile
 
 %build
 
-CFLAGS="%{optflags}" %make
+CFLAGS="-O3 -mfpmath=sse -ffast-math -ftree-vectorize" %make
 
 %install
 rm -rf %{buildroot}
