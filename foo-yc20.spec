@@ -15,6 +15,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  gtk2-devel
 BuildRequires:  jackit-devel
 BuildRequires:  slv2-devel
+BuildRequires:  desktop-file-utils
 BuildRequires:  faust
 
 %description
