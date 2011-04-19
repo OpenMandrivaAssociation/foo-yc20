@@ -35,6 +35,7 @@ o Realism control to add flaws found in the real organ
 %setup -q
 
 perl -pi -e 's/\/usr\/local/\/usr\//g' Makefile
+perl -pi -e 's/\/lib\/lv2/\/%{_lib}\/lv2/g' Makefile
 perl -pi -e 's/CFLAGS=/#CFLAGS=/g' Makefile
 
 %build
