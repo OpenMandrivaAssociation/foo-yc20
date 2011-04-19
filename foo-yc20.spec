@@ -13,9 +13,8 @@ License:        GPLv2
 Group:          Sound
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  gtk2-devel
-BuildRequires:  alsa-lib-devel
 BuildRequires:  jackit-devel
-BuildRequires:  alsa-oss-devel
+BuildRequires:  slv2-devel
 BuildRequires:  faust
 
 %description
