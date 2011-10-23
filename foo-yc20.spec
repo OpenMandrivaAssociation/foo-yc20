@@ -1,7 +1,7 @@
 Name:            foo-yc20
 Version:         1.3.0
 
-Release:        %mkrel 1
+Release:        %mkrel 2
 
 
 %define lv2dir  %{_libdir}/lv2/
@@ -40,7 +40,7 @@ perl -pi -e 's/CFLAGS=/#CFLAGS=/g' Makefile
 
 %build
 
-CFLAGS="-O3 -mfpmath=sse -ffast-math -ftree-vectorize" make
+CFLAGS="-mfpmath=sse -ffast-math -ftree-vectorize" %make
 
 %install
 rm -rf %{buildroot}
