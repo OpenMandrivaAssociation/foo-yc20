@@ -1,7 +1,7 @@
 Name:            foo-yc20
 Version:         1.3.0
 
-Release:        %mkrel 2
+Release:         3
 
 
 %define lv2dir  %{_libdir}/lv2/
@@ -14,6 +14,7 @@ Group:          Sound
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  gtk2-devel
 BuildRequires:  jackit-devel
+BuildRequires:  lv2-devel
 BuildRequires:  slv2-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  faust
