@@ -70,3 +70,21 @@ rm -rf %{buildroot}
 %{lv2dir}%{name}.lv2/%{name}.ttl
 %{lv2dir}%{name}.lv2/manifest.ttl
 
+
+
+%changelog
+* Wed Apr 25 2012 Frank Kober <emuse@mandriva.org> 1.3.0-3
++ Revision: 793406
++ rebuild (emptylog)
+
+* Sun Oct 23 2011 Frank Kober <emuse@mandriva.org> 1.3.0-2
++ Revision: 705781
+- rebuild with reduced complier optimization, gcc hangs otherwise
+
+* Tue Apr 19 2011 Frank Kober <emuse@mandriva.org> 1.3.0-1
++ Revision: 656070
+- try single core make instead of -j2
+- do not use mandriva optflags for better performance
+- x86_64 LV2-plugin path fixed in Makefile
+- import foo-yc20
+
