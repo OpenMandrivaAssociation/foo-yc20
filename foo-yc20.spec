@@ -12,7 +12,7 @@ URL:            http://code.google.com/p/%{name}
 License:        GPLv2
 Group:          Sound
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:  gtk2-devel
+BuildRequires:  gtk+2.0-devel
 BuildRequires:  jackit-devel
 BuildRequires:  lv2-devel
 BuildRequires:  slv2-devel
