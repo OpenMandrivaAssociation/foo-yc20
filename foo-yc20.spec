@@ -1,3 +1,5 @@
+%define debug_package	%{nil}
+
 Name:            foo-yc20
 Version:         1.3.0
 
