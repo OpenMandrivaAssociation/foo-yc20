@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %define lv2dir  %{_libdir}/lv2/
 
 Summary:	YC-20 organ emulation
