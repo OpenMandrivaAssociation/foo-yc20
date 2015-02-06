@@ -4,7 +4,7 @@
 Summary:	YC-20 organ emulation
 Name:		foo-yc20
 Version:	1.3.0
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		Sound
 Source0:	http://%{name}.googlecode.com/files/%{name}-%{version}.tar.bz2
