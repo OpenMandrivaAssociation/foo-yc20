@@ -8,7 +8,7 @@ Release:	5
 License:	GPLv2+
 Group:		Sound
 Source0:	http://%{name}.googlecode.com/files/%{name}-%{version}.tar.bz2
-Url:		http://code.google.com/p/%{name}
+Url:		https://code.google.com/p/%{name}
 BuildRequires:	desktop-file-utils
 BuildRequires:	faust
 BuildRequires:	pkgconfig(gtk+-2.0)
